@@ -3,9 +3,8 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
 
-  const filterdataa = [
+  const filterdata = [
     {
-      id: 1,
       catName: "Midas Touch",
       skins: [
         {
@@ -31,7 +30,6 @@ const Navbar = () => {
       ],
     },
     {
-      id: 2,
       catName: "Dark",
       skins: [
         {
@@ -153,6 +151,11 @@ const Navbar = () => {
     },
   ];
 
+  const navigate = useNavigate()
+  const navigateSearch = (e)=>{
+    let res = e.target.value;
+    navigate('/search',{state:{res, filterdata}})
+  }
   
 
   return (
@@ -224,6 +227,7 @@ const Navbar = () => {
         <input
           placeholder="Search"
           type="search"
+          onInput={navigateSearch}
           className="w-full h-10 pl-10 pr-4 border-2 border-transparent rounded-lg outline-none bg-[#f3f3f4] text-[#0d0c22] transition ease-in duration-300 placeholder-[#9e9ea7] focus:border-[rgba(152,230,254,0.4)] focus:bg-white focus:shadow-[0_0_0_4px_rgba(247,216,228,0.1)]"
         />
       </div>
