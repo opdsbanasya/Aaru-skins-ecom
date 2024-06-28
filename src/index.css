@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .search-input {
+        @apply w-full h-10 pl-10 pr-4 border-2 border-transparent rounded-lg outline-none bg-primary-light text-secondary-dark transition ease-in duration-300 placeholder-secondary-light focus:border-highlight focus:bg-white focus:shadow-[0_0_0_4px_shadow];
+    }
+}

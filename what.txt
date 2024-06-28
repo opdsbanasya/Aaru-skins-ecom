@@ -1,0 +1,71 @@
+10
+Step 1: Home Page
+Home page should have below components -
+   ✔ Navbar 
+   ✔ Sliders
+   ✔ Shop by Category
+   ✔ Latest Products
+   ✔ Features
+   ✔ Footer
+   ✔ Scroll to Top Button
+   ✔ Navbar, Footer and “Scroll to Top Button” will be common in all
+    pages.
+
+Step 2: Products Page
+Products page should have below components-
+   ✔ Products List
+   ✔ Category Filter
+    Price Range Filter
+
+Step 3: Products View Page
+Product view page should have below components -
+   ✔ Product Title
+   ✔ Images
+   ✔ Description
+   ✔ Price
+   ✔ Ratings
+   ✔ Related Products
+   ✔ Add to cart
+
+Step 4: Category page
+Category page should have below components –
+   ✔ Category List
+   ✔ Title
+   ✔ Images
+   ✔ Short Description
+
+Step 5: Cart Page
+Cart page should have below components –
+   ✔ Cart Products List
+   ✔ Title
+   ✔ Images
+   ✔ Quantity
+   ✔ Price
+   ✔ Total Amount
+
+Step 6: Check Out Page
+Checkout page should have below components
+   ✔ Order Summary
+   ✔ Shipping Information Form
+
+Step 7: Order Confirmation Page
+Order Confirmation page should have below components –
+   ✔ Order Confirmation Message
+   ✔ Order No
+   ✔ Status
+
+Step 8: About Us Page
+About Us page should have below components –
+   ✔ Images & Text
+   ✔ Features
+   ✔ Testimonials
+
+Step 9: Contact Us
+Contact Us page should have below components –
+   ✔ Contact Info
+   ✔ Contact Form
+   ✔ (Submit Form Validation with JavaScript & jQuery)
+
+Step 10: Search Page
+Search page should have below components –
+    Search Products Listing
