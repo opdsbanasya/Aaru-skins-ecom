@@ -97,7 +97,7 @@ const RelatedProducts = () => {
   return (
     <>
       <div className="w-full min-h-96 flex flex-col items-center p-5 pt-10 gap-5">
-        <h1 className="text-2xl font-semibold">Latest Skins</h1>
+        <h1 className="text-2xl font-semibold">Related Skins</h1>
         <div
           className={`flex flex-wrap items-center justify-center gap-8 px-12`}
         >

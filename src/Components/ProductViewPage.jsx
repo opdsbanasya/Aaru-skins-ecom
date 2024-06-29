@@ -34,7 +34,7 @@ const ProductViewPage = () => {
             >
               Back
             </button>
-            <section className="h-[70vh] bg-zinc-300">
+            <section className="h-[70vh] bg-zinc-300 rounded-xl shadow-br overflow-hidden">
               <img
                 className="h-full object-cover"
                 src={product.image}

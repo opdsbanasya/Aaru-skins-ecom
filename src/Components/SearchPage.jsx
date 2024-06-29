@@ -37,16 +37,18 @@ const SearchPage = () => {
 
   const navigate = useNavigate();
   const productClickHandle = (product) =>{
-    console.log(product);
+    navigate(`/product/${product.name}`, { state: { product } });
+    window.scrollTo(0, 0);
   }
-  const categoryClickHandle = (category) =>{
-    console.log(category);
+  const categoryClickHandle = (item) =>{
+    navigate(`/products/${item.catName}`, { state: { item } })
+    window.scrollTo(0, 0);
   }
 
   return (
     <div className="w-full min-h-screen relative">
       <section className={`w-full h-full relative ${res.length !== 0 ? "block" : "hidden"}`}>
-        {searchCategoryData.length !== 0 && searchProductData.length !== 0 ? (
+        {searchCategoryData.length !== 0 || searchProductData.length !== 0 ? (
           <section className="w-[22.5%] min-h-10 bg-zinc-300 absolute top-1 left-[55%] rounded-md flex flex-col ">
             <section
               className={`w-full ${

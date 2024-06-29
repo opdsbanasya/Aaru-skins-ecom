@@ -37,7 +37,9 @@ function Footer() {
           <i className="ri-arrow-up-s-line text-4xl"></i>
         </button>
       </footer>
-      <br />
+        <hr className="mt-5 mx-20" />
+        <p className="mt-2 mx-20">Image Copyright &copy; <a className="hover:underline " target="_blank" href="https://www.layers.shop/">Layers.shop</a></p>
+      
       <br />
     </div>
   );

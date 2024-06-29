@@ -120,6 +120,53 @@ const Navbar = () => {
         ],
     },
     {
+        catName: "Wanderlust",
+        skins: [
+          {
+            name: "Before Sunset",
+            price: 699,
+            image: "https://www.layers.shop/cdn/shop/products/asus-rog-phone-5-before-sunset--back.jpg?v=1692709565&width=1080",
+          },
+          {
+            name: "Purr Me Perfect",
+            price: 549,
+            image: "https://www.layers.shop/cdn/shop/products/asus-rog-phone-5-purr-me-perfect--back.jpg?v=1692612295&width=1080",
+          },
+          {
+            name: "CIUDAD",
+            price: 499,
+            image: "https://www.layers.shop/cdn/shop/products/asus-rog-5-ciudad--back.jpg?v=1675834151&width=1080",
+          },
+          
+        ],
+    },
+    {
+        catName: "Into the Woods",
+        skins: [
+          {
+            name: "Folklore",
+            price: 899,
+            image: "https://www.layers.shop/cdn/shop/files/Tecno_Pova_6_Pro_Folklore_1314e21b-c79e-46fb-91ac-94316863715b.png?v=1711621510&width=1080",
+          },
+          {
+            name: "Fluttering Dreams",
+            price: 799,
+            image: "https://www.layers.shop/cdn/shop/files/Tecno_Pova_6_Pro_Fluttering_Dreams_c051a539-cf99-4b4b-bc60-340793d6c26a.png?v=1711621610&width=1080",
+          },
+          {
+            name: "Sunflower",
+            price: 699,
+            image: "https://www.layers.shop/cdn/shop/files/Tecno_Pova_6_Pro_Sunflower_7a57ae4a-35f9-4135-ae88-b0546c42bf3d.png?v=1711621556&width=1080",
+          },
+          {
+            name: "Forest's Whisper",
+            price: 599,
+            image: "https://www.layers.shop/cdn/shop/files/Tecno_Pova_6_Pro_Forest_s_Whisper_8382659d-76cb-47ab-83a7-7bc579a3a00c.png?v=1711621491&width=1080",
+          },
+          
+        ],
+    },
+    {
         catName: "Sky is not the Limit",
         skins: [
           {
