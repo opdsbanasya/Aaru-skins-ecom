@@ -1,8 +1,8 @@
 # Aaru Mart - E-commerce Website
 
--Common components like the Navbar for navigation, a footer for site-wide links, and a convenient 'scroll-to-top' button are essential in the website. Given these features, building this website using ReactJS would be advantageous for efficient development and seamless user interaction.
+- Common components like the Navbar for navigation, a footer for site-wide links, and a convenient 'scroll-to-top' button are essential in the website. Given these features, building this website using ReactJS would be advantageous for efficient development and seamless user interaction.
 
-- Home Page
+-- Home Page
 The Home Page of Aaru Mart includes essential components such as a Navbar for navigation, sliders for featured content, categories for easy browsing, latest products showcase, key features highlight, a footer for site-wide links, and a scroll-to-top button for smooth navigation.
 
 ---
