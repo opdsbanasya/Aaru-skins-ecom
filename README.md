@@ -34,4 +34,4 @@ The Contact Us Page provides contact information for Aaru Mart. It features a co
 - ### Search Page
 The Search Page enables users to search for specific products available on Aaru Mart. It provides a listing of products matching the search query to facilitate quick product discovery.
 
-### (Link)[https://aaru-skins.vercel.app/]
+### https://aaru-skins.vercel.app/
