@@ -2,6 +2,7 @@
 
 - Common components like the Navbar for navigation, a footer for site-wide links, and a convenient 'scroll-to-top' button are essential in the website. Given these features, building this website using ReactJS would be advantageous for efficient development and seamless user interaction.
 
+- [Live Demo](https://aaruskins.vercel.app/)
 ---
 
 - ### Home Page
@@ -34,4 +35,4 @@ The Contact Us Page provides contact information for Aaru Mart. It features a co
 - ### Search Page
 The Search Page enables users to search for specific products available on Aaru Mart. It provides a listing of products matching the search query to facilitate quick product discovery.
 
-### https://aaru-skins.vercel.app/
+
